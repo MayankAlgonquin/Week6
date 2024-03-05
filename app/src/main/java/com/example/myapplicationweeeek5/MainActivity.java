@@ -18,7 +18,7 @@ import android.widget.Toast;
  * MainActivity serves as the app's main interface, where users can enter a password and submit it for complexity validation. It extends {@link AppCompatActivity} and manages UI components like {@link EditText} for input and {@link Button} for initiating the validation process, providing feedback on password requirements.
  */
 public class MainActivity extends AppCompatActivity {
-
+//
     /**
      * TextView to display feedback on password complexity validation. It shows success or failure messages
      * based on the user's password input.
@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //
 
         tv = findViewById(R.id.textView);
         btn = findViewById(R.id.loginButton);
